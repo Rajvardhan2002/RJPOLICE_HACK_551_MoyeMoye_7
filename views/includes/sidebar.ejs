@@ -15,19 +15,20 @@
       <a href="/details"><i class="fa-solid fa-house-user"></i>Home</a>
     </li>
     <li>
-      <a href="/transactions"
+      <a href="/all-transactions-history"
         ><i class="fa-solid fa-money-bills"></i>Transactions</a
       >
     </li>
     <li>
-      <a href="/predictTransactions"
-        ><i class="fa-solid fa-star"></i>Predict Fraud</a
-      >
+      <a href="/predict-fraud"><i class="fa-solid fa-star"></i>Predict Fraud</a>
     </li>
     <li>
       <a href="/detect-fraud-sms"
-        ><i class="fa-solid fa-star"></i>Predict SMS</a
+        ><i class="fa-solid fa-comment-sms"></i>Predict SMS</a
       >
+    </li>
+    <li>
+      <a href="/all-accounts"><i class="fa-solid fa-user"></i>Your Accounts</a>
     </li>
     <% if(locals.isAuth) { %>
     <li class="logout">
